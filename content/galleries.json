@@ -114,31 +114,29 @@
   {
     "en": {
       "id": "creative-projects",
-      "cover": "harbour",
+      "title": "Creative Projects",
+      "description": "Travel journals and experiments on paper.",
+      "cover": "70d8d73d-fb0f-4870-9510-791430ab8da1",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "harbour"
-        },
-        {
-          "artwork": "lake-detail"
+          "artwork": "70d8d73d-fb0f-4870-9510-791430ab8da1"
         }
-      ],
-      "title": "Creative Projects",
-      "description": "Travel journals and experiments on paper."
+      ]
     },
     "de": {
       "id": "creative-projects",
-      "cover": "harbour",
+      "title": "Künstlerische Projekte",
+      "description": "Reisetagebücher und Experimente auf Papier.",
+      "cover": "70d8d73d-fb0f-4870-9510-791430ab8da1",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "harbour"
-        },
-        {
-          "artwork": "lake-detail"
+          "artwork": "70d8d73d-fb0f-4870-9510-791430ab8da1"
         }
-      ],
-      "title": "Künstlerische Projekte",
-      "description": "Reisetagebücher und Experimente auf Papier."
+      ]
     }
   }
 ]
