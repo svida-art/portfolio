@@ -1,0 +1,128 @@
+[
+  {
+    "en": {
+      "id": "design",
+      "cover": "poppy",
+      "works": [
+        {
+          "artwork": "poppy"
+        },
+        {
+          "artwork": "stem-study"
+        }
+      ],
+      "title": "Design",
+      "description": "Botanical forms and studies for print."
+    },
+    "de": {
+      "id": "design",
+      "cover": "poppy",
+      "works": [
+        {
+          "artwork": "poppy"
+        },
+        {
+          "artwork": "stem-study"
+        }
+      ],
+      "title": "Design",
+      "description": "Botanische Formen und Studien für den Druck."
+    }
+  },
+  {
+    "en": {
+      "id": "illustration",
+      "cover": "alpine-water",
+      "works": [
+        {
+          "artwork": "alpine-water"
+        },
+        {
+          "artwork": "stem-study"
+        },
+        {
+          "artwork": "lake-detail"
+        },
+        {
+          "artwork": "harbour"
+        }
+      ],
+      "title": "Illustration",
+      "description": "Field sketches and painted observations, from mountain water to the smallest stem."
+    },
+    "de": {
+      "id": "illustration",
+      "cover": "alpine-water",
+      "works": [
+        {
+          "artwork": "alpine-water"
+        },
+        {
+          "artwork": "stem-study"
+        },
+        {
+          "artwork": "lake-detail"
+        },
+        {
+          "artwork": "harbour"
+        }
+      ],
+      "title": "Illustration",
+      "description": "Skizzen und gemalte Beobachtungen, vom Bergsee bis zum kleinsten Stängel."
+    }
+  },
+  {
+    "en": {
+      "id": "portraits",
+      "cover": "profile",
+      "works": [
+        {
+          "artwork": "profile"
+        }
+      ],
+      "title": "Portraits",
+      "description": "Faces observed in passing light."
+    },
+    "de": {
+      "id": "portraits",
+      "cover": "profile",
+      "works": [
+        {
+          "artwork": "profile"
+        }
+      ],
+      "title": "Porträts",
+      "description": "Gesichter im wechselnden Licht."
+    }
+  },
+  {
+    "en": {
+      "id": "creative-projects",
+      "cover": "harbour",
+      "works": [
+        {
+          "artwork": "harbour"
+        },
+        {
+          "artwork": "lake-detail"
+        }
+      ],
+      "title": "Creative Projects",
+      "description": "Travel journals and experiments on paper."
+    },
+    "de": {
+      "id": "creative-projects",
+      "cover": "harbour",
+      "works": [
+        {
+          "artwork": "harbour"
+        },
+        {
+          "artwork": "lake-detail"
+        }
+      ],
+      "title": "Künstlerische Projekte",
+      "description": "Reisetagebücher und Experimente auf Papier."
+    }
+  }
+]

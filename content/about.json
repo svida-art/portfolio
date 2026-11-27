@@ -1,0 +1,16 @@
+{
+  "en": {
+    "artwork": "stem-study",
+    "title": "About Clara",
+    "intro": "My sketchbooks begin outdoors, where a shadow can change before the first wash has dried.",
+    "sub": "In the studio",
+    "body": "<p>Back at the drawing table I work in transparent layers, leaving the paper visible between strokes. These small intervals of light give each painting its rhythm.</p>"
+  },
+  "de": {
+    "artwork": "stem-study",
+    "title": "Über Clara",
+    "intro": "Meine Skizzenbücher beginnen draußen, wo ein Schatten wandert, bevor die erste Lasur getrocknet ist.",
+    "sub": "Im Atelier",
+    "body": "<p>Am Zeichentisch arbeite ich in transparenten Schichten. Zwischen den Pinselstrichen bleibt das Papier sichtbar. Diese kleinen Lichtflächen geben jedem Bild seinen Rhythmus.</p>"
+  }
+}

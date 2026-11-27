@@ -1,0 +1,216 @@
+backend:
+  name: github
+  repo: hqmap/portfolio
+  branch: main
+  auth_methods: [token]
+publish_mode: simple
+site_url: https://hqmap.github.io/portfolio/
+display_url: https://hqmap.github.io/portfolio/
+media_folder: images
+public_folder: /portfolio/images
+
+i18n:
+  structure: single_file
+  locales: [en, de]
+  default_locale: en
+
+media_libraries:
+  all:
+    transformations:
+      raster_image:
+        format: webp
+        quality: 94
+        width: 2800
+        height: 2800
+
+collections:
+  - name: pages
+    label: Website Pages
+    i18n: true
+    files:
+      - name: home
+        label: Homepage
+        file: content/home.json
+        i18n: true
+        preview_path: 'portfolio/index.html?lang={{locale}}'
+        fields:
+          - {name: pageTitle, label: Browser page title, widget: string, i18n: true}
+          - &artwork-relation
+            name: featured
+            label: Featured artwork
+            widget: relation
+            collection: artworks
+            value_field: id
+            display_fields: ['title', 'image']
+            search_fields: ['title', 'id', 'image']
+            i18n: duplicate
+            required: false
+          - {name: selected, label: Selected Collections heading, widget: string, i18n: true}
+          - {name: portfolioLink, label: Portfolio link label, widget: string, i18n: true}
+      - name: portfolio
+        label: Portfolio Overview
+        file: content/portfolio.json
+        i18n: true
+        preview_path: 'portfolio/portfolio.html?lang={{locale}}'
+        fields:
+          - &title {name: title, label: Title, widget: string, i18n: true}
+          - &intro {name: intro, label: Introduction, widget: text, i18n: true, required: false}
+      - name: services-overview
+        label: Services Overview
+        file: content/services-overview.json
+        i18n: true
+        preview_path: 'portfolio/services.html?lang={{locale}}'
+        fields: [*title, *intro]
+      - name: about
+        label: About Me
+        file: content/about.json
+        i18n: true
+        preview_path: 'portfolio/about.html?lang={{locale}}'
+        fields:
+          - *title
+          - *intro
+          - {name: sub, label: Subheading, widget: string, i18n: true, required: false}
+          - &body {name: body, label: Formatted text, widget: richtext, format: html, i18n: true, required: false}
+          - &optional-image {name: image, label: Image, widget: image, i18n: duplicate, required: false}
+          - {<<: *artwork-relation, name: artwork, label: Artwork image fallback}
+          - &alt {name: alt, label: Image alternative text, widget: string, i18n: true, required: false}
+          - &caption {name: caption, label: Image caption, widget: string, i18n: true, required: false}
+      - name: news-overview
+        label: News Overview
+        file: content/news-overview.json
+        i18n: true
+        preview_path: 'portfolio/news.html?lang={{locale}}'
+        fields: [*title, *intro]
+      - name: contact
+        label: Contact
+        file: content/contact.json
+        i18n: true
+        preview_path: 'portfolio/contact.html?lang={{locale}}'
+        fields:
+          - *title
+          - *intro
+          - *body
+          - {name: email, label: Email address, widget: string, i18n: duplicate}
+          - {name: telephone, label: Phone number, widget: string, i18n: duplicate, required: false}
+          - name: social
+            label: Social links
+            label_singular: Social link
+            widget: list
+            i18n: duplicate
+            required: false
+            fields:
+              - {name: label, label: Profile name, widget: string}
+              - {name: href, label: Profile URL, widget: string, hint: 'A full Instagram profile URL also appears in the site navigation.'}
+
+  - name: artworks
+    label: Artwork Library
+    label_singular: Artwork
+    file: content/artworks.json
+    i18n: true
+    identifier_field: id
+    summary: '{{title}} {{image}}'
+    thumbnail: image
+    fields:
+      - &id {name: id, label: Artwork ID, widget: uuid, i18n: duplicate}
+      - {<<: *optional-image, label: Artwork image, required: true}
+      - {<<: *title, label: Artwork title, required: false}
+      - {name: medium, label: Medium or technique, widget: string, i18n: true, required: false}
+      - {name: year, label: Year of creation, widget: number, value_type: int, i18n: duplicate, required: false}
+      - {name: dimensions, label: Physical dimensions, widget: string, i18n: duplicate, required: false, hint: 'For example, 30 × 40 cm.'}
+      - {name: description, label: Extended description, widget: text, i18n: true, required: false}
+      - *alt
+
+  - name: galleries
+    label: Portfolio Galleries & Covers
+    label_singular: Gallery
+    file: content/galleries.json
+    i18n: true
+    identifier_field: id
+    summary: '{{title}}'
+    thumbnail: coverImage
+    preview_path: 'portfolio/gallery.html?id={{fields.id}}&lang={{locale}}'
+    fields:
+      - {<<: *id, label: Gallery ID}
+      - *title
+      - {<<: *intro, name: description}
+      - {<<: *artwork-relation, name: cover, label: Cover artwork}
+      - {<<: *optional-image, name: coverImage, label: Dedicated cover image, hint: 'Select or upload an image to use in place of the cover artwork.'}
+      - {<<: *alt, name: coverAlt, label: Cover alternative text, hint: 'Describe the dedicated image or the selected cover artwork.'}
+      - name: works
+        label: Artwork order
+        label_singular: Artwork
+        widget: list
+        i18n: duplicate
+        required: false
+        collapsed: true
+        allow_reorder: true
+        allow_duplicate: false
+        summary: '{{fields.artwork}}'
+        fields:
+          - {<<: *artwork-relation, name: artwork, label: Artwork, required: true}
+
+  - name: services
+    label: Services & Commissions
+    label_singular: Service
+    file: content/services.json
+    i18n: true
+    preview_path: 'portfolio/service.html?id={{fields.id}}&lang={{locale}}'
+    thumbnail: coverImage
+    fields:
+      - {<<: *id, label: Service ID}
+      - *title
+      - {<<: *optional-image, name: coverImage, label: Category cover, required: true}
+      - &cover-alt {<<: *alt, name: coverAlt, label: Cover alternative text}
+      - *intro
+      - {<<: *body, label: Service description, required: true}
+      - name: photos
+        label: Photographs
+        label_singular: Photograph
+        widget: list
+        i18n: sync
+        required: false
+        collapsed: true
+        fields:
+          - {<<: *optional-image, label: Photograph, i18n: sync, required: true}
+          - *caption
+          - *alt
+      - {name: inquiryUrl, label: Inquiry link, widget: string, i18n: duplicate, required: false, hint: 'Use contact.html, a full web address or a mailto link.'}
+      - {name: inquiryLabel, label: Inquiry link label, widget: string, i18n: true, required: false}
+
+  - name: news
+    label: News Articles
+    label_singular: News Article
+    file: content/news.json
+    i18n: true
+    preview_path: 'portfolio/article.html?id={{fields.id}}&lang={{locale}}'
+    fields:
+      - {<<: *id, label: Article ID}
+      - *title
+      - {name: date, label: Publication date, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD', i18n: duplicate}
+      - {<<: *optional-image, name: coverImage, label: Cover image}
+      - {<<: *artwork-relation, name: image, label: Artwork image fallback}
+      - *cover-alt
+      - *caption
+      - {name: excerpt, label: Summary, widget: text, i18n: true, required: false}
+      - {<<: *body, label: Article, required: true}
+
+  - name: settings
+    label: Website Settings
+    i18n: true
+    files:
+      - name: settings
+        label: General Settings
+        file: content/settings.json
+        i18n: true
+        fields:
+          - {name: artist, label: Artist name, widget: string, i18n: duplicate}
+          - name: navigation
+            label: Navigation labels
+            widget: object
+            i18n: true
+            fields:
+              - {name: portfolio, label: Portfolio, widget: string, i18n: true}
+              - {name: services, label: Services & Commissions, widget: string, i18n: true}
+              - {name: about, label: About Me, widget: string, i18n: true}
+              - {name: news, label: News, widget: string, i18n: true}
+              - {name: contact, label: Contact, widget: string, i18n: true}

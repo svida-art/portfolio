@@ -1,0 +1,22 @@
+{
+  "en": {
+    "artist": "Clara Weiss",
+    "navigation": {
+      "portfolio": "Portfolio",
+      "services": "Services & Commissions",
+      "about": "About Me",
+      "news": "News",
+      "contact": "Contact"
+    }
+  },
+  "de": {
+    "artist": "Clara Weiss",
+    "navigation": {
+      "portfolio": "Portfolio",
+      "services": "Leistungen & Auftragsarbeiten",
+      "about": "Über mich",
+      "news": "Aktuelles",
+      "contact": "Kontakt"
+    }
+  }
+}

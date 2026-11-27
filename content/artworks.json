@@ -1,0 +1,140 @@
+[
+  {
+    "en": {
+      "id": "alpine-water",
+      "image": "/portfolio/images/artworks/alpine-water.webp",
+      "year": 2025,
+      "title": "An Alpine Stillness",
+      "medium": "Watercolor on paper",
+      "alt": "Blue alpine peaks and dark pines reflected in a clear mountain lake",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/alpine-water.webp",
+        "width": 768,
+        "height": 512
+      }
+    },
+    "de": {
+      "id": "alpine-water",
+      "image": "/portfolio/images/artworks/alpine-water.webp",
+      "year": 2025,
+      "title": "Alpine Stille",
+      "medium": "Aquarell auf Papier",
+      "alt": "Blaue Berggipfel und dunkle Kiefern spiegeln sich in einem klaren Bergsee"
+    }
+  },
+  {
+    "en": {
+      "id": "poppy",
+      "image": "/portfolio/images/artworks/poppy.webp",
+      "year": 2025,
+      "title": "Golden Poppy",
+      "medium": "Watercolor on paper",
+      "alt": "An open golden poppy and curling buds painted on warm paper",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/poppy.webp",
+        "width": 768,
+        "height": 512
+      }
+    },
+    "de": {
+      "id": "poppy",
+      "image": "/portfolio/images/artworks/poppy.webp",
+      "year": 2025,
+      "title": "Goldener Mohn",
+      "medium": "Aquarell auf Papier",
+      "alt": "Eine goldene Mohnblüte und geschwungene Knospen auf warmem Papier"
+    }
+  },
+  {
+    "en": {
+      "id": "profile",
+      "image": "/portfolio/images/artworks/profile.webp",
+      "year": 2024,
+      "title": "Afternoon Light",
+      "medium": "Watercolor on paper",
+      "alt": "A woman in profile, her hair loosely gathered, in soft rose and umber",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/profile.webp",
+        "width": 505,
+        "height": 512
+      }
+    },
+    "de": {
+      "id": "profile",
+      "image": "/portfolio/images/artworks/profile.webp",
+      "year": 2024,
+      "title": "Nachmittagslicht",
+      "medium": "Aquarell auf Papier",
+      "alt": "Frauenprofil mit locker gebundenem Haar in zartem Rosa und Umbra"
+    }
+  },
+  {
+    "en": {
+      "id": "harbour",
+      "image": "/portfolio/images/artworks/harbour.webp",
+      "year": 2025,
+      "title": "Along the Quay",
+      "medium": "Watercolor on paper",
+      "alt": "Blue fishing boats below sunlit terracotta rooftops",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/harbour.webp",
+        "width": 768,
+        "height": 512
+      }
+    },
+    "de": {
+      "id": "harbour",
+      "image": "/portfolio/images/artworks/harbour.webp",
+      "year": 2025,
+      "title": "Am Kai",
+      "medium": "Aquarell auf Papier",
+      "alt": "Blaue Fischerboote unter sonnenbeschienenen Ziegeldächern"
+    }
+  },
+  {
+    "en": {
+      "id": "stem-study",
+      "image": "/portfolio/images/artworks/stem-study.webp",
+      "year": 2025,
+      "title": "Poppy, stem detail",
+      "medium": "Watercolor on paper",
+      "alt": "Tall study of a poppy stem and green seed head",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/stem-study.webp",
+        "width": 352,
+        "height": 510
+      }
+    },
+    "de": {
+      "id": "stem-study",
+      "image": "/portfolio/images/artworks/stem-study.webp",
+      "year": 2025,
+      "title": "Mohn, Stängeldetail",
+      "medium": "Aquarell auf Papier",
+      "alt": "Hochformatige Studie eines Mohnstängels mit grüner Samenkapsel"
+    }
+  },
+  {
+    "en": {
+      "id": "lake-detail",
+      "image": "/portfolio/images/artworks/lake-detail.webp",
+      "year": 2025,
+      "title": "Lake, reflection detail",
+      "medium": "Watercolor on paper",
+      "alt": "Square detail of blue-green reflections beneath pine trees",
+      "pixelSize": {
+        "image": "/portfolio/images/artworks/lake-detail.webp",
+        "width": 344,
+        "height": 344
+      }
+    },
+    "de": {
+      "id": "lake-detail",
+      "image": "/portfolio/images/artworks/lake-detail.webp",
+      "year": 2025,
+      "title": "See, Spiegelungsdetail",
+      "medium": "Aquarell auf Papier",
+      "alt": "Quadratisches Detail blaugrüner Spiegelungen unter Kiefern"
+    }
+  }
+]

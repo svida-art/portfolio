@@ -1,0 +1,84 @@
+[
+  {
+    "en": {
+      "id": "painting-classes",
+      "coverImage": "/portfolio/images/artworks/harbour.webp",
+      "coverAlt": "Blue fishing boats below sunlit terracotta rooftops",
+      "title": "Drawing & Painting Classes",
+      "intro": "Drawing and watercolor sessions for beginners and returning artists.",
+      "body": "<p>We start with observation and simple sketches, then build up color in transparent washes. Bring a sketchbook and any materials you already enjoy using.</p>"
+    },
+    "de": {
+      "id": "painting-classes",
+      "coverImage": "/portfolio/images/artworks/harbour.webp",
+      "coverAlt": "Blaue Fischerboote unter sonnenbeschienenen Ziegeldächern",
+      "title": "Zeichen- und Malkurse",
+      "intro": "Zeichen- und Aquarellkurse für Einsteiger und Wiedereinsteiger.",
+      "body": "<p>Wir beginnen mit Beobachtungen und einfachen Skizzen und bauen die Farbe dann in transparenten Lasuren auf. Bringen Sie ein Skizzenbuch und Materialien mit, mit denen Sie gerne arbeiten.</p>"
+    }
+  },
+  {
+    "en": {
+      "id": "ceramics",
+      "coverImage": "/portfolio/images/ceramics-sample.webp",
+      "coverAlt": "Two sage-glazed stoneware cups and a shallow dish on linen by a window",
+      "title": "Ceramics",
+      "intro": "Small hand-built pieces inspired by botanical forms.",
+      "body": "<p>These studio studies explore simple shapes, surface marks and muted glazes.</p>"
+    },
+    "de": {
+      "id": "ceramics",
+      "coverImage": "/portfolio/images/ceramics-sample.webp",
+      "coverAlt": "Zwei salbeigrün glasierte Steinzeugbecher und eine flache Schale auf Leinen am Fenster",
+      "title": "Keramik",
+      "intro": "Kleine handgeformte Stücke, inspiriert von botanischen Formen.",
+      "body": "<p>In diesen Atelierstudien erkunde ich einfache Formen, Oberflächenstrukturen und zurückhaltende Glasuren.</p>"
+    }
+  },
+  {
+    "en": {
+      "id": "commissions",
+      "coverImage": "/portfolio/images/artworks/poppy.webp",
+      "coverAlt": "An open golden poppy and curling buds painted on warm paper",
+      "title": "Commissions",
+      "intro": "A painting can begin with a place, a person, or a small object you want to remember.",
+      "body": "<h2>Working together</h2><p>For portraits, botanical studies, and editorial illustration, send a short description of your idea. We can choose a format and discuss the first sketch together.</p>",
+      "photos": [
+        {
+          "image": "/portfolio/images/artworks/poppy.webp",
+          "alt": "An open golden poppy and curling buds painted on warm paper",
+          "caption": "Golden Poppy"
+        },
+        {
+          "image": "/portfolio/images/artworks/profile.webp",
+          "alt": "A woman in profile, her hair loosely gathered, in soft rose and umber",
+          "caption": "Afternoon Light"
+        }
+      ],
+      "inquiryUrl": "contact.html",
+      "inquiryLabel": "Contact"
+    },
+    "de": {
+      "id": "commissions",
+      "coverImage": "/portfolio/images/artworks/poppy.webp",
+      "coverAlt": "Eine goldene Mohnblüte und geschwungene Knospen auf warmem Papier",
+      "title": "Auftragsarbeiten",
+      "intro": "Ein Bild kann mit einem Ort, einer Person oder einem kleinen Erinnerungsstück beginnen.",
+      "body": "<h2>Zusammenarbeit</h2><p>Für Porträts, botanische Studien und Illustrationen genügt zunächst eine kurze Beschreibung Ihrer Idee. Gemeinsam wählen wir ein Format und besprechen die erste Skizze.</p>",
+      "photos": [
+        {
+          "image": "/portfolio/images/artworks/poppy.webp",
+          "alt": "Eine goldene Mohnblüte und geschwungene Knospen auf warmem Papier",
+          "caption": "Goldener Mohn"
+        },
+        {
+          "image": "/portfolio/images/artworks/profile.webp",
+          "alt": "Frauenprofil mit locker gebundenem Haar in zartem Rosa und Umbra",
+          "caption": "Nachmittagslicht"
+        }
+      ],
+      "inquiryUrl": "contact.html",
+      "inquiryLabel": "Kontakt"
+    }
+  }
+]

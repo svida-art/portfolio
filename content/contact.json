@@ -1,0 +1,12 @@
+{
+  "en": {
+    "email": "studio@example.com",
+    "title": "Contact",
+    "intro": "For commissions, collaborations, or a note about a painting, write to the studio."
+  },
+  "de": {
+    "email": "studio@example.com",
+    "title": "Kontakt",
+    "intro": "Für Aufträge, gemeinsame Projekte oder eine Nachricht zu einem Bild schreiben Sie an das Atelier."
+  }
+}
