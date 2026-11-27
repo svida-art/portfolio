@@ -158,5 +158,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "ceb701bd-087f-4818-911a-49afba10347a",
+      "image": "/portfolio/images/magnolia.webp",
+      "title": "Magnolia",
+      "medium": "Watercolor on paper",
+      "year": 2021,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "ceb701bd-087f-4818-911a-49afba10347a",
+      "image": "/portfolio/images/magnolia.webp",
+      "title": "",
+      "medium": "",
+      "year": 2021,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
