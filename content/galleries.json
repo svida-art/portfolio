@@ -2,31 +2,29 @@
   {
     "en": {
       "id": "design",
-      "cover": "poppy",
+      "title": "Design",
+      "description": "Botanical forms and studies for print.",
+      "cover": "9772e43a-2774-4db3-9f5a-4214ec9a2162",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "poppy"
-        },
-        {
-          "artwork": "stem-study"
+          "artwork": "9772e43a-2774-4db3-9f5a-4214ec9a2162"
         }
-      ],
-      "title": "Design",
-      "description": "Botanical forms and studies for print."
+      ]
     },
     "de": {
       "id": "design",
-      "cover": "poppy",
+      "title": "Design",
+      "description": "Botanische Formen und Studien für den Druck.",
+      "cover": "9772e43a-2774-4db3-9f5a-4214ec9a2162",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "poppy"
-        },
-        {
-          "artwork": "stem-study"
+          "artwork": "9772e43a-2774-4db3-9f5a-4214ec9a2162"
         }
-      ],
-      "title": "Design",
-      "description": "Botanische Formen und Studien für den Druck."
+      ]
     }
   },
   {
