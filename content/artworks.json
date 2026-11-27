@@ -136,5 +136,27 @@
       "medium": "Aquarell auf Papier",
       "alt": "Quadratisches Detail blaugrüner Spiegelungen unter Kiefern"
     }
+  },
+  {
+    "en": {
+      "id": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "image": "/portfolio/images/pink dianthus.webp",
+      "title": "Pink Dianthus",
+      "medium": "Watercolor on paper",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "image": "/portfolio/images/pink dianthus.webp",
+      "title": "Nelken (Dianthus)",
+      "medium": "Aquarell auf Papier",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
