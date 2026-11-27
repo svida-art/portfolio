@@ -19,9 +19,9 @@ media_libraries:
     transformations:
       raster_image:
         format: webp
-        quality: 94
-        width: 2800
-        height: 2800
+        quality: 86
+        width: 2560
+        height: 2560
 
 collections:
   - name: pages
