@@ -180,5 +180,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "80bd460b-b02a-4e91-8e82-73f5acb54d02",
+      "image": "/portfolio/images/пион.webp",
+      "title": "Peony",
+      "medium": "Watercolor on paper",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "80bd460b-b02a-4e91-8e82-73f5acb54d02",
+      "image": "/portfolio/images/пион.webp",
+      "title": "Pfingstrosen",
+      "medium": "Aquarell auf Papier",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
