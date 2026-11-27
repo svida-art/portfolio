@@ -268,5 +268,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "70d8d73d-fb0f-4870-9510-791430ab8da1",
+      "image": "/portfolio/images/FWL 001.webp",
+      "title": "Window Design: Vytynanka",
+      "medium": "Paper-Cutting (Vytynanka)",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "70d8d73d-fb0f-4870-9510-791430ab8da1",
+      "image": "/portfolio/images/FWL 001.webp",
+      "title": "Fenstergestaltung: Vytynanka",
+      "medium": "Vytynanka (Scherenschnitt)",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
