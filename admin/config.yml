@@ -1,11 +1,11 @@
 backend:
   name: github
-  repo: hqmap/portfolio
+  repo: svida-art/portfolio
   branch: main
   auth_methods: [token]
 publish_mode: simple
-site_url: https://hqmap.github.io/portfolio/
-display_url: https://hqmap.github.io/portfolio/
+site_url: https://svida-art.github.io/portfolio/
+display_url: https://svida-art.github.io/portfolio/
 media_folder: images
 public_folder: /portfolio/images
 
