@@ -30,43 +30,29 @@
   {
     "en": {
       "id": "illustration",
-      "cover": "alpine-water",
+      "title": "Illustration",
+      "description": "Field sketches and painted observations, from mountain water to the smallest stem.",
+      "cover": "04d0dcd2-19b5-488c-a036-2a955e67b18c",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "alpine-water"
-        },
-        {
-          "artwork": "stem-study"
-        },
-        {
-          "artwork": "lake-detail"
-        },
-        {
-          "artwork": "harbour"
+          "artwork": "04d0dcd2-19b5-488c-a036-2a955e67b18c"
         }
-      ],
-      "title": "Illustration",
-      "description": "Field sketches and painted observations, from mountain water to the smallest stem."
+      ]
     },
     "de": {
       "id": "illustration",
-      "cover": "alpine-water",
+      "title": "Illustration",
+      "description": "Skizzen und gemalte Beobachtungen, vom Bergsee bis zum kleinsten Stängel.",
+      "cover": "04d0dcd2-19b5-488c-a036-2a955e67b18c",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
         {
-          "artwork": "alpine-water"
-        },
-        {
-          "artwork": "stem-study"
-        },
-        {
-          "artwork": "lake-detail"
-        },
-        {
-          "artwork": "harbour"
+          "artwork": "04d0dcd2-19b5-488c-a036-2a955e67b18c"
         }
-      ],
-      "title": "Illustration",
-      "description": "Skizzen und gemalte Beobachtungen, vom Bergsee bis zum kleinsten Stängel."
+      ]
     }
   },
   {
