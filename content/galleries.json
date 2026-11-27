@@ -74,25 +74,35 @@
   {
     "en": {
       "id": "portraits",
-      "cover": "profile",
+      "title": "Portraits",
+      "description": "Faces observed in passing light.",
+      "cover": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
+        {
+          "artwork": "9abfa7e2-7c67-4780-b953-830be73f0dd4"
+        },
         {
           "artwork": "profile"
         }
-      ],
-      "title": "Portraits",
-      "description": "Faces observed in passing light."
+      ]
     },
     "de": {
       "id": "portraits",
-      "cover": "profile",
+      "title": "Porträts",
+      "description": "Gesichter im wechselnden Licht.",
+      "cover": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "coverImage": "",
+      "coverAlt": "",
       "works": [
+        {
+          "artwork": "9abfa7e2-7c67-4780-b953-830be73f0dd4"
+        },
         {
           "artwork": "profile"
         }
-      ],
-      "title": "Porträts",
-      "description": "Gesichter im wechselnden Licht."
+      ]
     }
   },
   {
