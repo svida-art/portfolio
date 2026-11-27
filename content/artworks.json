@@ -202,5 +202,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "15c9c40a-f18d-4bad-a7fd-78c1d635a866",
+      "image": "/portfolio/images/Скан091.webp",
+      "title": "Portrait with a Pet",
+      "medium": "Watercolor on paper",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "15c9c40a-f18d-4bad-a7fd-78c1d635a866",
+      "image": "/portfolio/images/Скан091.webp",
+      "title": "Porträt mit einem Haustier",
+      "medium": "Aquarell auf Papier",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
