@@ -224,5 +224,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "70ab61cc-7dca-4a30-8b40-74ff22aae4ab",
+      "image": "/portfolio/images/пвап.webp",
+      "title": "Family Portrait",
+      "medium": "Watercolor on paper",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "70ab61cc-7dca-4a30-8b40-74ff22aae4ab",
+      "image": "/portfolio/images/пвап.webp",
+      "title": "Familienporträt",
+      "medium": "Aquarell auf Papier",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
