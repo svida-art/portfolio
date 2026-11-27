@@ -76,15 +76,18 @@
       "id": "portraits",
       "title": "Portraits",
       "description": "Faces observed in passing light.",
-      "cover": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "cover": "15c9c40a-f18d-4bad-a7fd-78c1d635a866",
       "coverImage": "",
       "coverAlt": "",
       "works": [
         {
-          "artwork": "9abfa7e2-7c67-4780-b953-830be73f0dd4"
+          "artwork": "15c9c40a-f18d-4bad-a7fd-78c1d635a866"
         },
         {
-          "artwork": "profile"
+          "artwork": "70ab61cc-7dca-4a30-8b40-74ff22aae4ab"
+        },
+        {
+          "artwork": "c5d28b76-92d6-4877-970b-287d5bb7bc88"
         }
       ]
     },
@@ -92,15 +95,18 @@
       "id": "portraits",
       "title": "Porträts",
       "description": "Gesichter im wechselnden Licht.",
-      "cover": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "cover": "15c9c40a-f18d-4bad-a7fd-78c1d635a866",
       "coverImage": "",
       "coverAlt": "",
       "works": [
         {
-          "artwork": "9abfa7e2-7c67-4780-b953-830be73f0dd4"
+          "artwork": "15c9c40a-f18d-4bad-a7fd-78c1d635a866"
         },
         {
-          "artwork": "profile"
+          "artwork": "70ab61cc-7dca-4a30-8b40-74ff22aae4ab"
+        },
+        {
+          "artwork": "c5d28b76-92d6-4877-970b-287d5bb7bc88"
         }
       ]
     }
