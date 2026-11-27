@@ -16,5 +16,29 @@
       "excerpt": "Eine Seite aus einem Skizzenbuch, das sich am Kai gefüllt hat.",
       "body": "<p>Drei Morgen hintereinander kehrte ich an denselben Kai zurück. Die Boote bewegten sich kaum, aber jeden Tag verlangte das Wasser nach einem anderen Blau. Aus diesen drei kleinen Studien entstand dieses Bild.</p>"
     }
+  },
+  {
+    "en": {
+      "id": "a1d6363e-12c6-4d9d-9a3b-95e01cccb1b3",
+      "title": "Test",
+      "date": "2026-11-27",
+      "coverImage": "/portfolio/images/pink dianthus.webp",
+      "image": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "coverAlt": "",
+      "caption": "Testing",
+      "excerpt": "My test",
+      "body": "<h1>Big Test</h1><p><br></p><p><img src=\"/portfolio/images/ceramics-sample.webp\" alt=\"\"><br><strong>Testing</strong> <em>test</em> <s>for</s> testing purpouses<br>My <a href=\"https://svida-art.github.io/portfolio/portfolio.html?lang=en\" rel=\"noreferrer\">site</a></p>"
+    },
+    "de": {
+      "id": "a1d6363e-12c6-4d9d-9a3b-95e01cccb1b3",
+      "title": "Testung",
+      "date": "2026-11-27",
+      "coverImage": "/portfolio/images/pink dianthus.webp",
+      "image": "9abfa7e2-7c67-4780-b953-830be73f0dd4",
+      "coverAlt": "",
+      "caption": "",
+      "excerpt": "My testung",
+      "body": "<h1>Big Test</h1><p><br></p><p><img src=\"/portfolio/images/ceramics-sample.webp\" alt=\"\"><br><strong>Testing</strong> <em>test</em> <s>for</s> testing purpouses<br>My <a href=\"https://svida-art.github.io/portfolio/portfolio.html?lang=en\" rel=\"noreferrer\">site</a></p>"
+    }
   }
 ]
