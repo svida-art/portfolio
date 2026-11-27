@@ -312,5 +312,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "04d0dcd2-19b5-488c-a036-2a955e67b18c",
+      "image": "/portfolio/images/FB_IMG_1698569570770.webp",
+      "title": "Co-authorship and illustrations for the book \"Colorful Days. Mysterious Days.\"",
+      "medium": "Watercolor illustration",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "04d0dcd2-19b5-488c-a036-2a955e67b18c",
+      "image": "/portfolio/images/FB_IMG_1698569570770.webp",
+      "title": "Mitautorin und Illustratorin des Buches „Farbenfrohe Tage. Geheimnisvolle Tage.“",
+      "medium": "Aquarellillustration",
+      "year": 2020,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
