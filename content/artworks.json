@@ -356,5 +356,27 @@
       "description": "",
       "alt": ""
     }
+  },
+  {
+    "en": {
+      "id": "555947b6-7c7e-4ce9-bebf-b16a85d9e209",
+      "image": "/portfolio/images/250715 rima0446.webp",
+      "title": "FWL Window Design (Krefeld): Vytynanka",
+      "medium": "Vytynanka (Scherenschnitt)",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    },
+    "de": {
+      "id": "555947b6-7c7e-4ce9-bebf-b16a85d9e209",
+      "image": "/portfolio/images/250715 rima0446.webp",
+      "title": "FWL Fenstergestaltung (Krefeld): Vytynanka",
+      "medium": "Vytynanka (Scherenschnitt)",
+      "year": 2025,
+      "dimensions": "",
+      "description": "",
+      "alt": ""
+    }
   }
 ]
